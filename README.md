@@ -1,6 +1,14 @@
 # cj-app
 Angular 4 SPA
 
+IMPORTANT NOTES:
+
+    1. The backend endpoint host url is mentioned in environment.ts as well as environment.prod.ts. The property name is "apiUrl". An example is mentioned in "app.component.ts".
+    2. PLEASE USE THIS PROPERTY ("apiUrl") WHEN YOU ARE TRYING TO CALL A BACKEND API. ALSO DON'T CHANGE THIS PROPERTY ELSE THE APP WILL NOT BUILD PROPERLY AND YOUR SUBMISSION WILL NOT BE SCORED. 
+    3. Make sure that all the properties mentioned in environment.ts are also mentioned in environment.prod.ts for the app to build properly.
+    4. Make sure you follow the steps mentioned under "PROJECT START STEPS" and ensure that the steps execute successfully. 
+    5. Make sure you follow the steps mentioned under "DOCKER START STEPS" and ensure that the steps execute successfully. 
+
 PROJECT START STEPS:
 
     Pre-requisites:

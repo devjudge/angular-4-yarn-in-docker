@@ -1,4 +1,4 @@
-FROM node:12.2.0
+FROM node:12.22.1
 
 RUN mkdir -p /app
 WORKDIR /app

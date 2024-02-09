@@ -2,7 +2,7 @@ tasks:
   - name: 'Terminal 1'
     openMode: split-right
     command: |
-          wget -qOdatabase-setup.sh https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/gitpod/env-setup-fe.sh
+          wget -qOdatabase-setup.sh https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/gitpod/env-setup-frontend.sh
           chmod 0755 database-setup.sh
           bash database-setup.sh node 12.22.1 use_yarn start 4200
   - name: 'Terminal 2'
